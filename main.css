@@ -1,0 +1,26 @@
+#map-container{
+	position:relative;
+	width:600px;
+	height:600px;
+}
+
+#map-catcher{
+	position:absolute;
+	left:0px;
+	top:0px;
+	height:100%;
+	width:100%;
+}
+
+.info-box{
+  width: 200px;
+	height: 100px;
+	display: none;
+  background-color: #6FE01C;
+  color: #000000;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: fixed;
+  z-index: 2;
+}
